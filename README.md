@@ -1,6 +1,13 @@
-# barclays_bikes - A Ruby Library for Retreiving Barclays Bike Availability
+# barclays_bikes
 
-This may be used as a library or as a command line tool.
+A Ruby library for retrieving Barclays Bike availability information. It may be
+used as a library or as a command line tool.
+
+### Installation
+
+```console
+$ gem install barclays_bikes
+```
 
 ### Command Line Usage
 
