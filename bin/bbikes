@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require 'barclays_bikes'
+
+if (ARGV & %w(-h --help)).empty?
+  query = ARGV.join(' ')
+  BarclaysBikes.print_bike_info(query)
+else
+  puts "usage: bbikes <query>"
+end
+
+# vim: set ft=ruby
+
